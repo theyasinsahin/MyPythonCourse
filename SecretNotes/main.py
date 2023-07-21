@@ -2,12 +2,10 @@ from tkinter import *
 from tkinter import messagebox
 from PIL import ImageTk, Image
 import cryptocode
-import os
 
 window = Tk()
 window.title("Secret Notes")
 window.config(pady=40,padx=40)
-
 
 #adding image
 img = ImageTk.PhotoImage(Image.open("secret.png"))
